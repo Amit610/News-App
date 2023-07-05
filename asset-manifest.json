@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/https//Amit610.github.io/News-App/static/css/main.e6c13ad2.css",
+    "main.js": "/https//Amit610.github.io/News-App/static/js/main.5c338593.js",
+    "static/js/787.4c026eef.chunk.js": "/https//Amit610.github.io/News-App/static/js/787.4c026eef.chunk.js",
+    "static/media/loading.gif": "/https//Amit610.github.io/News-App/static/media/loading.816e2b9b9cf8e61a5db0.gif",
+    "index.html": "/https//Amit610.github.io/News-App/index.html",
+    "main.e6c13ad2.css.map": "/https//Amit610.github.io/News-App/static/css/main.e6c13ad2.css.map",
+    "main.5c338593.js.map": "/https//Amit610.github.io/News-App/static/js/main.5c338593.js.map",
+    "787.4c026eef.chunk.js.map": "/https//Amit610.github.io/News-App/static/js/787.4c026eef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5c338593.js"
+  ]
+}
