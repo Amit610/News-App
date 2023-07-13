@@ -8,7 +8,7 @@ export class NewsItem extends Component {
       <div>
         <div
           className="card hover-shadow bg-image hover-zoom bg-dark "
-          style={{ height: "500px", color: "white" }}
+          style={{ height: "500px", color: "white", marginBottom: "20px" }}
         >
           <img src={imgurl} className="card-img-top" alt="..." />
           <div className="card-body">
