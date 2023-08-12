@@ -1,10 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+      <nav
+        className="navbar fixed-top bg-dark navbar-expand-lg"
+        data-bs-theme="dark"
+      >
         <div className="container-fluid">
           <Link className="navbar-brand" to="#">
             NewsFlash

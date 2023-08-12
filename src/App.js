@@ -4,6 +4,7 @@ import News from "./componants/News";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
+  const pageSize = 9;
   return (
     <div>
       <Router>
@@ -15,7 +16,7 @@ const App = () => {
             element={
               <News
                 key="general"
-                pageSize={6}
+                pageSize={pageSize}
                 country="in"
                 category="general"
               />
@@ -27,7 +28,7 @@ const App = () => {
             element={
               <News
                 key="business"
-                pageSize={6}
+                pageSize={pageSize}
                 country="in"
                 category="business"
               />
@@ -39,7 +40,7 @@ const App = () => {
             element={
               <News
                 key="entertainment"
-                pageSize={6}
+                pageSize={pageSize}
                 country="in"
                 category="entertainment"
               />
@@ -49,7 +50,12 @@ const App = () => {
             exact
             path="/health"
             element={
-              <News key="health" pageSize={6} country="in" category="health" />
+              <News
+                key="health"
+                pageSize={pageSize}
+                country="in"
+                category="health"
+              />
             }
           ></Route>
           <Route
@@ -58,7 +64,7 @@ const App = () => {
             element={
               <News
                 key="science"
-                pageSize={6}
+                pageSize={pageSize}
                 country="in"
                 category="science"
               />
@@ -68,7 +74,12 @@ const App = () => {
             exact
             path="/sports"
             element={
-              <News key="sports" pageSize={6} country="in" category="sports" />
+              <News
+                key="sports"
+                pageSize={pageSize}
+                country="in"
+                category="sports"
+              />
             }
           ></Route>
           <Route
@@ -77,7 +88,7 @@ const App = () => {
             element={
               <News
                 key="technology"
-                pageSize={6}
+                pageSize={pageSize}
                 country="in"
                 category="technology"
               />

@@ -19,7 +19,11 @@ const News = (props) => {
     setTotalresults(parsdData.totalResults);
   };
 
+  function capitalize([first, ...rest]) {
+    return first.toUpperCase() + rest.join("").toLowerCase();
+  }
   useEffect(() => {
+    document.title = `${capitalize(props.category)} - NewsFlash`;
     UpdateNews();
   }, []);
 
@@ -35,8 +39,8 @@ const News = (props) => {
   return (
     <div>
       <div className="container my-3">
-        <h1 className="text-center" style={{ margin: "35px 0px" }}>
-          News Flash - Top News{" "}
+        <h1 className="text-center" style={{ margin: "90px 0px 35px 0px" }}>
+          News Flash - Top News from {capitalize(props.category)}
         </h1>
         {loading && <Spinner />}
         <div className="row">
